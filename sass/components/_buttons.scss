@@ -1,5 +1,6 @@
 .btn {
-    width: 100%;
+  width: 100%;
+
   &:link,
   &:visited {
     display: inline-block;
@@ -14,11 +15,21 @@
 
   &--ios {
     background-color: $strong-cyan;
-    box-shadow: 0 0.5rem 0.3rem darken($strong-cyan, 10%);
+    box-shadow: 0 0.5rem 0.2rem darken($strong-cyan, 10%);
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: 0 0;
+    }
   }
 
   &--mac {
     background-color: $light-blue;
-    box-shadow: 0 0.5rem 0.3rem darken($light-blue, 10%);
+    box-shadow: 0 0.5rem 0.2rem darken($light-blue, 10%);
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: 0 0;
+    }
   }
 }

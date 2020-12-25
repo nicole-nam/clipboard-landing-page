@@ -69,14 +69,28 @@ body {
 
 .btn--ios {
   background-color: #26baa4;
-  -webkit-box-shadow: 0 0.5rem 0.3rem #1d907f;
-          box-shadow: 0 0.5rem 0.3rem #1d907f;
+  -webkit-box-shadow: 0 0.5rem 0.2rem #1d907f;
+          box-shadow: 0 0.5rem 0.2rem #1d907f;
+}
+
+.btn--ios:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
 }
 
 .btn--mac {
   background-color: #6173ff;
-  -webkit-box-shadow: 0 0.5rem 0.3rem #2e46ff;
-          box-shadow: 0 0.5rem 0.3rem #2e46ff;
+  -webkit-box-shadow: 0 0.5rem 0.2rem #2e46ff;
+          box-shadow: 0 0.5rem 0.2rem #2e46ff;
+}
+
+.btn--mac:active {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-box-shadow: 0 0;
+          box-shadow: 0 0;
 }
 
 .header {
