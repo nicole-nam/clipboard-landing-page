@@ -1,1 +1,96 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.2;
+  font-family: "Bai Jamjuree", sans-serif;
+  position: relative;
+}
+
+.heading-primary {
+  min-height: 20rem;
+}
+
+.heading-primary--main {
+  display: block;
+  padding: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4c545d;
+}
+
+.heading-primary--sub {
+  display: block;
+  padding: 0 3rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #9fabb2;
+}
+
+.u-margin-top {
+  margin-top: 10rem;
+}
+
+.u-margin-top-sm {
+  margin-top: 2rem;
+}
+
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  margin-top: 2.5rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+
+.btn--ios {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0 0.5rem 0.3rem #1d907f;
+          box-shadow: 0 0.5rem 0.3rem #1d907f;
+}
+
+.btn--mac {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0 0.5rem 0.3rem #2e46ff;
+          box-shadow: 0 0.5rem 0.3rem #2e46ff;
+}
+
+.header {
+  text-align: center;
+  background-image: url("/images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__btn-box {
+  padding: 0 3rem;
+}
+/*# sourceMappingURL=main.css.map */

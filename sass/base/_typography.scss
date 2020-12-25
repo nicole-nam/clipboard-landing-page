@@ -1,0 +1,21 @@
+.heading-primary {
+  min-height: 20rem;
+  &--main {
+    display: block;
+    padding: 3rem;
+
+    font-size: 3rem;
+    font-weight: 700;
+    color: $dark-grey-blue;
+  }
+
+  &--sub {
+    display: block;
+    padding: 0 3rem;
+
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: $grayish-blue;
+  }
+}

@@ -1,0 +1,24 @@
+.btn {
+    width: 100%;
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    margin-top: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+  &--ios {
+    background-color: $strong-cyan;
+    box-shadow: 0 0.5rem 0.3rem darken($strong-cyan, 10%);
+  }
+
+  &--mac {
+    background-color: $light-blue;
+    box-shadow: 0 0.5rem 0.3rem darken($light-blue, 10%);
+  }
+}
