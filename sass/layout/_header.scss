@@ -1,5 +1,7 @@
 .header {
 
+  @include section-margin;
+  
   &__btn-box {
     padding: 0 3rem;
   }
