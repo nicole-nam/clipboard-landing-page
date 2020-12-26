@@ -1,15 +1,6 @@
 .header {
-  text-align: center;
-  background-image: url("/images/bg-header-mobile.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
 
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  &__btn-box{
+  &__btn-box {
     padding: 0 3rem;
   }
 }

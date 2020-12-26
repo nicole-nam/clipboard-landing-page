@@ -14,9 +14,16 @@ html {
 
 body {
   box-sizing: border-box;
-  line-height: 1.2;
   font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  line-height: 1.2;
 
-  position: relative;
+  background-image: url("/images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 
+  position: absolute;
+  top: 0;
+  left: 0;
 }
