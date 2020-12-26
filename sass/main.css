@@ -17,6 +17,7 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   text-align: center;
   line-height: 1.2;
+  padding: 3rem;
   background-image: url("/images/bg-header-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +33,7 @@ body {
 
 .heading-primary--main {
   display: block;
-  padding: 3rem;
+  padding-top: 2rem;
   font-size: 3rem;
   font-weight: 700;
   color: #4c545d;
@@ -40,11 +41,20 @@ body {
 
 .heading-primary--sub {
   display: block;
-  padding: 0 3rem;
+  padding: 2rem 0;
   font-size: 1.4rem;
   line-height: 1.6;
   font-weight: 400;
   color: #9fabb2;
+}
+
+.heading-secondary {
+  font-size: 2.5rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .u-margin-top {
@@ -55,12 +65,16 @@ body {
   margin-top: 2rem;
 }
 
+.u-margin-top-med {
+  margin-top: 3rem;
+}
+
 .u-margin-bottom-sm {
   margin-bottom: 1.5rem;
 }
 
 .u-margin-bottom-large {
-  margin-bottom: 15rem;
+  margin-bottom: 12rem;
 }
 
 .btn {
@@ -106,5 +120,10 @@ body {
 
 .header__btn-box {
   padding: 0 3rem;
+}
+
+.section-snippets__image {
+  width: 100%;
+  padding: 2rem 0;
 }
 /*# sourceMappingURL=main.css.map */
