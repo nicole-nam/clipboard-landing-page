@@ -77,6 +77,10 @@ body {
   margin-bottom: 12rem;
 }
 
+.u-padding-gutter {
+  padding: 0 1rem;
+}
+
 .btn {
   width: 100%;
 }
@@ -150,5 +154,26 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 60rem;
+}
+
+.footer__logo {
+  height: 5rem;
+}
+
+.footer__list {
+  list-style-type: none;
+  margin: 4rem 0;
+}
+
+.footer__link {
+  color: #4c545d;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 3;
+}
+
+.footer__social-links:not(:last-child) {
+  margin-right: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

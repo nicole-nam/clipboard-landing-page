@@ -1,3 +1,11 @@
 @mixin section-margin{
     margin-bottom: 12rem; 
 }
+
+@mixin nav-style{
+    color: $dark-grey-blue;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 3;
+}
