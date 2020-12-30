@@ -1,6 +1,7 @@
 .btn {
   width: 100%;
 
+
   @media only screen and (min-width: $bp-small) {
    width: 30%;
   }
@@ -15,6 +16,11 @@
     text-decoration: none;
     cursor: pointer;
     border-radius: 3rem;
+
+    &:hover{
+      filter: brightness(1.2);
+    }
+  
   }
 
   &--ios {

@@ -1,5 +1,10 @@
 .heading-primary {
   min-height: 20rem;
+
+  @media only screen and (min-width: $bp-small) {
+    min-height: 0;
+  }
+
   &--main {
     display: block;
     padding-top: 2rem;
@@ -16,14 +21,28 @@
     line-height: 1.6;
     font-weight: 400;
     color: $grayish-blue;
+
+    @media only screen and (min-width: $bp-small) {
+      padding: 3rem 12rem;
+    }
+
+    &-2 {
+      @media only screen and (min-width: $bp-medium) {
+        padding: 1rem;
+      }
+    }
   }
 }
 
 .heading-secondary {
   font-size: 2.5rem;
+
+  @media only screen and (min-width: $bp-large) {
+    padding-top: 15rem;
+  }
 }
 
-.heading-tertiary{
+.heading-tertiary {
   font-size: 2rem;
   font-weight: 400;
 }

@@ -1,7 +1,31 @@
 .section-snippets {
   @include section-margin;
+  position: relative;
+
+  &__container {
+    @media only screen and (min-width: $bp-medium) {
+      margin-top: 5rem;
+    }
+    @media only screen and (min-width: $bp-large) {
+      margin-top: 10rem;
+    }
+  }
+
+  &__sub {
+    @media only screen and (min-width: $bp-medium) {
+      text-align: left;
+    }
+  }
+
   &__image {
     width: 100%;
     padding: 2rem 0;
+
+    @media only screen and (min-width: $bp-medium) {
+      width: 60%;
+      float: left;
+      margin-left: -10rem;
+      margin-right: 10rem;
+    }
   }
 }
