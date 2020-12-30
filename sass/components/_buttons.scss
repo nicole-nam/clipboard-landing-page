@@ -1,6 +1,10 @@
 .btn {
   width: 100%;
 
+  @media only screen and (min-width: $bp-small) {
+   width: 30%;
+  }
+
   &:link,
   &:visited {
     display: inline-block;
@@ -20,6 +24,10 @@
     &:active {
       transform: translateY(3px);
       box-shadow: 0 0;
+    }
+
+    @media only screen and (min-width: $bp-small) {
+      margin-right: 2rem;
     }
   }
 

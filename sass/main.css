@@ -88,6 +88,12 @@ body {
   width: 100%;
 }
 
+@media only screen and (min-width: 48em) {
+  .btn {
+    width: 30%;
+  }
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   font-size: 1.5rem;
@@ -112,6 +118,12 @@ body {
           box-shadow: 0 0;
 }
 
+@media only screen and (min-width: 48em) {
+  .btn--ios {
+    margin-right: 2rem;
+  }
+}
+
 .btn--mac {
   background-color: #6173ff;
   -webkit-box-shadow: 0 0.5rem 0.2rem #2e46ff;
@@ -132,6 +144,17 @@ body {
 
 .header__btn-box {
   padding: 0 3rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .header__btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .section-snippets {

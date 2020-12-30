@@ -2,8 +2,13 @@
   padding: 3rem;
 
   @include section-margin;
-  
+
   &__btn-box {
     padding: 0 3rem;
+
+    @media only screen and (min-width: $bp-small) {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
