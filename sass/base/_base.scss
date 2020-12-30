@@ -38,6 +38,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+
+  @media only screen and (min-width: $bp-large) {
+    width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .main {

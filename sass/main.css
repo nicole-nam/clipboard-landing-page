@@ -44,6 +44,15 @@ body {
   left: 0;
 }
 
+@media only screen and (min-width: 90em) {
+  body {
+    width: 1440px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
 .main {
   padding: 3rem;
 }
